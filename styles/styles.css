@@ -29,7 +29,7 @@
   padding: 25px 15px;
 }
 #feed-container {
-  overflow: scroll;
+  overflow-y: scroll;
   gap: 20px;
 }
 
