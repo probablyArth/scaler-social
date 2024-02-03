@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="/styles/colors.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Scaler Social</title>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <nav class="flex justify-between px-medium py-small">
+      <img src="./assets/icons/sst-logo.svg" alt="" />
+      <img src="./assets/icons/scaler-social-logo.svg" alt="" />
+    </nav>
+    <div
+      style="height: calc(100vh - 100px); background-color: var(--light-blue)"
+      class="flex items-center justify-between w-full h-full row-to-col-md"
+    >
+      <div
+        id="container"
+        class="flex-col items-center justify-center w-full h-full"
+      >
+        <h3 class="text-NS12">Post your thoughts here</h3>
+        <div id="post-card">
+          <div class="flex" id="post-card-hero">
+            <img src="assets/icons/user.svg" alt="" />
+            <textarea
+              class="text-NS7"
+              required
+              placeholder="Type your thoughts here...."
+              rows="10"
+              cols="40"
+              id="new-post-input"
+            ></textarea>
+          </div>
+          <div id="post-card-footer" class="flex justify-between">
+            <span>0/100</span>
+            <button class="bg-primary-80 text-white" id="new-post-button">
+              Post
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="feed" class="flex-col bg-white h-full w-full">
+        <h3>Your Feed</h3>
+        <div id="feed-container" class="flex-col w-full h-full">asd</div>
+      </div>
+    </div>
+  </body>
+</html>

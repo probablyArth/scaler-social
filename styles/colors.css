@@ -1,0 +1,47 @@
+.text-NS4 {
+  color: var(--NS4);
+}
+
+.text-NS5 {
+  color: var(--NS5);
+}
+
+.bg-NS5 {
+  background-color: var(--NS5);
+}
+
+.text-NS2 {
+  color: var(--NS2);
+}
+
+.bg-NS2 {
+  background-color: var(--NS2);
+}
+
+.text-NS7 {
+  color: var(--NS7);
+}
+
+.text-NS9 {
+  color: var(--NS9);
+}
+
+.text-NS12 {
+  color: var(--NS12);
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-primary-80 {
+  background: var(--primary-80);
+}
+
+.text-primary-80 {
+  color: var(--primary-80);
+}
